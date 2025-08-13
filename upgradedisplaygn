@@ -62,8 +62,8 @@ const REFRESH_MS = 5000;                      // 5초마다 재조회 (원치 �
  * https://docs.google.com/spreadsheets/d/<SHEET_ID>/gviz/tq?tqx=out:json&sheet=<SHEET_NAME>&range=<RANGE>
  * 공개 보기여야 브라우저에서 CORS로 접근 가능
  */
-const GVIZ_URL = `https://docs.google.com/spreadsheets/d/${encodeURIComponent(SHEET_ID)}/gviz/tq?` +
-                 `tqx=out:json&sheet=${encodeURIComponent(SHEET_NAME)}&range=${encodeURIComponent(RANGE)}`;
+const GVIZ_URL = `https://docs.google.com/spreadsheets/d/${encodeURIComponent(16_aHITP-iPWE57OWnv85gw60qTN6Rhfo-41G1_rQpT0)}/gviz/tq?` +
+                 `tqx=out:json&sheet=${encodeURIComponent(시트1)}&range=${encodeURIComponent(A1:B2)}`;
 
 const $text = document.getElementById("text");
 const $meta = document.getElementById("meta");
