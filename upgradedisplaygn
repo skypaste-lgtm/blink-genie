@@ -51,9 +51,9 @@
  * 3) A1 값이 1이면 B1, 아니면 B2를 깜박이며 표시
  * 4) 필요 시 REFRESH_MS로 자동 새로고침 주기 조정
  */
-const SHEET_ID   = "16_aHITP-iPWE57OWnv85gw60qTN6Rhfo-41G1_rQpT0"; // 예: 1AbCDeFg... (URL의 /d/와 /edit 사이)
-const SHEET_NAME = "시트1";                   // 시트 탭 이름
-const RANGE      = "A1:B2";                   // A1, B1, B2를 포함하는 범위
+const SHEET_ID   = 16_aHITP-iPWE57OWnv85gw60qTN6Rhfo-41G1_rQpT0; // 예: 1AbCDeFg... (URL의 /d/와 /edit 사이)
+const SHEET_NAME = 시트1;                   // 시트 탭 이름
+const RANGE      = A1:B2;                   // A1, B1, B2를 포함하는 범위
 const REFRESH_MS = 5000;                      // 5초마다 재조회 (원치 않으면 null)
 
 /* =======================================================
